@@ -1,0 +1,139 @@
+body, * {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Overlay */
+.overlay {
+  background: rgba(0, 0, 0, 0.55);
+  height: 100%;
+  padding: 20px;
+}
+
+/* Nav */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 60px;
+}
+.logo {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* Buttons */
+.login-btn, .enter-btn {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn { background: white; color: #2e7d32; }
+.login-btn:hover { background: #dcdcdc; }
+
+.enter-btn { background: #4CAF50; color: white; }
+.enter-btn:hover { background: #3d8c41; }
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin-top: 120px;
+}
+
+/* Cards */
+.cards-section {
+  margin-top: 70px;
+}
+.card-custom {
+  border-radius: 18px;
+  overflow: hidden;
+}
+.card-title {
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+/* LOGIN PAGE BACKGROUND */
+body {
+  background-image: url("images/LOG.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+ SUGGESTION BOX ALWAYS VISIBLE WHEN UPDATED */
+#suggestion {
+  display: none;
+}
+
+#suggestion.show {
+  display: block !important;
+}
+
+/* Legend Colors */
+.legend-color {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.heavy-rain { background: #ff4d4d; }   /* Red */
+.light-rain { background: #ffcc00; }   /* Yellow */
+.no-rain    { background: #4CAF50; }   /* Green */
+
+/* RAIN COLOR LEGEND */
+.legend-color {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  border-radius: 4px;
+  border: 1px solid #444;
+}
+
+.heavy-rain { background-color: red; }
+.light-rain { background-color: yellow; }
+.no-rain { background-color: lightblue; }
+.farm-img {
+  width: 100%;
+  height: 320px;   /* Set same height as other images */
+  object-fit: cover;   /* Makes image auto-adjust and fill evenly */
+  border-radius: 12px;
+}
+.card-custom img {
+  height: 220px;      /* Increase height here */
+  object-fit: cover;  /* Ensures image fills nicely */
+  width: 100%;        /* Full width of card */
+  border-radius: 10px;
+}
+.front-bg {
+  background: url("images/front background.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.overlay {
+  background: rgba(184, 169, 169, 0.436); /* Black with 50% opacity */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.fixed-img {
+  height: 200px;        /* Make images same height */
+  object-fit: cover;    /* Crop nicely */
+  border-radius: 6px;
+}
+
+
+
+
